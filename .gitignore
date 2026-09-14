@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+.terraform.lock.hcl
+
+# Build artifacts
+infra/modules/lambda/build/
+layers/pillow/pillow-layer.zip
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local env / editor
+.env
+.venv/
+.vscode/
+.DS_Store
