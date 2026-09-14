@@ -24,3 +24,5 @@ htmlcov/
 .venv/
 .vscode/
 .DS_Store
+dev.tfvars
+prod.tfvars
